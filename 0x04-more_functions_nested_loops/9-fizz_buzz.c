@@ -14,13 +14,13 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else if (c % 5 == 0)
-		{
-			printf("Buzz");
-		}
 		else if (c % 3 == 0)
 		{
 			printf("Fizz");
+		}
+		else if (c % 5 == 0)
+		{
+			printf("Buzz");
 		}
 		else
 		{
